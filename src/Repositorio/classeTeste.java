@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  *
- * @author Hugo
+ * @author Hugo / Arthur
  */
 public class classeTeste {
     public static void main(String[] args) throws DocumentException, IOException {
@@ -19,7 +19,7 @@ public class classeTeste {
        //teste  o banco   
         
         RepositorioList list = new RepositorioList();
-        Funcionario func = new Funcionario("Arthur PAdilha","(81) 3333-3333" );
+        Funcionario func = new Funcionario("Arthur Leite Padilha","(81) 3333-3333" );
         Banco banco = new Banco("Bradesco", "Rua Almeida Prado 255","50000-000", "Recife", "PB");
         
         list.init();
